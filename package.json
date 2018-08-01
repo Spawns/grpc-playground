@@ -1,0 +1,25 @@
+{
+  "name": "theseus-grpc-playground",
+  "version": "1.0.0",
+  "description": "To compile with protoc, run: protoc -I customer/ customer/customer.proto --go_out=plugins=grpc:customer",
+  "main": "index.js",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.1.0",
+    "grpc": "^1.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumup/theseus-grpc-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumup/theseus-grpc-playground/issues"
+  },
+  "homepage": "https://github.com/sumup/theseus-grpc-playground#readme"
+}
